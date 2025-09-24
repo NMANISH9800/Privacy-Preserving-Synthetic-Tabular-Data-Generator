@@ -16,59 +16,36 @@
 
 2. **Required Libraries**  
    Install the dependencies using:
-   ```bash
    pip install -r requirements.txt
+   
 Additional Tools:
-
 Ensure you have Git installed for version control.
-
 You may also need Jupyter Notebook for running tutorials or experiments.
 
-How to Run the Project Locally
+**How to Run the Project Locally**
 Step 1: Clone the Repository
 Clone the repository to your local machine:
-
-bash
-Copy code
 git clone https://github.com/NMANISH9800/Privacy-Preserving-Synthetic-Tabular-Data-Generator.git
 cd Privacy-Preserving-Synthetic-Tabular-Data-Generator
+
 Step 2: Set Up the Virtual Environment
 Create and activate a virtual environment:
-
-bash
-Copy code
 python -m venv venv
 Activate the virtual environment:
-
 Windows:
-
-bash
-Copy code
 venv\Scripts\activate
 macOS/Linux:
-
-bash
-Copy code
 source venv/bin/activate
+
 Step 3: Install Dependencies
 Install all the necessary dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
+
 Step 4: Generate Synthetic Data
 Run the generator to create synthetic data from real data:
-
-bash
-Copy code
 python generate_synthetic_data.py
 This will generate synthetic data based on the configuration set in the script.
 
 Step 5: Evaluate the Results
 After generating the synthetic data, use the provided evaluation functions to compare it with real data:
-
-bash
-Copy code
 python evaluate_synthetic_data.py
-Step 6: Modify the Experiment
-You can adjust the script settings and experiment with different data types, algorithms, and parameters as needed.
