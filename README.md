@@ -24,12 +24,14 @@ Ensure you have Git installed for version control.
 
 You may also need Jupyter Notebook for running tutorials or experiments.
 
-How to Run the Project Locally
+**How to Run the Project Locally**
+
 Step 1: Clone the Repository
 
 Clone the repository to your local machine:
 
 git clone https://github.com/NMANISH9800/Privacy-Preserving-Synthetic-Tabular-Data-Generator.git
+
 cd Privacy-Preserving-Synthetic-Tabular-Data-Generator
 
 Step 2: Set Up the Virtual Environment
@@ -70,3 +72,4 @@ Step 5: Evaluate the Results
 After generating the synthetic data, use the provided evaluation functions to compare it with real data:
 
 python evaluate_synthetic_data.py
+
